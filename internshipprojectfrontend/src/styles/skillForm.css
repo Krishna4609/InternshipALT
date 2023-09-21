@@ -1,0 +1,67 @@
+.myeditSkillcontainer{
+    display: grid;
+    grid-template-columns: 8vw auto 8vw;
+    gap: 2rem;
+    position: relative;
+    margin-top: -120px;
+}
+
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically in the viewport */
+}
+
+.skill-form-container {
+    width: 600px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    margin: 20px auto; /* Center horizontally within the container */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-input,
+.form-select {
+    width: 100%;
+    max-width: 100%; /* Ensure the content fits within the width */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.form-select {
+    max-width: 100%; /* You can adjust this if needed */
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

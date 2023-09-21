@@ -1,0 +1,105 @@
+.address-container {
+    width: 562px;
+    margin: 0 auto;
+    padding: 32px;
+    border: 1px solid #efefef;
+     background-color: #fcfdffad;
+    box-shadow: 0px 23px 23px rgba(0, 0, 0, 0.312);
+    border-radius: 36px;
+  }
+    
+  
+  .address-container input {
+    border: 1px solid black;
+    padding: 12px 16px;
+    width: 100%;
+    
+    border-radius: 10px;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+    padding: 12px;
+  }
+  
+  .address-container .form-check-input{
+    width: 30px;
+  }
+  
+  .myAddressContainer{
+    display: grid;
+      grid-template-columns: 8vw auto 8vw;
+      gap: 2rem;
+      position: relative;
+  }
+  
+  
+  .checkbox {
+    height: 45px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .myAddcontainer{
+    display: grid;
+    grid-template-columns: 20vw auto 20vw;
+    gap: 2rem;
+    position: relative;
+  }
+  
+  .address-details-container {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  
+  .address-details-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the address-details-table */
+  .address-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .address-details-table th,
+  .address-details-table td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .address-details-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styling for the Add Education button */
+  .add-address-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .address-details-label{
+    font-weight: bold;
+  }
+  
+  
+  .add-address-button:hover {
+    background-color: #2980b9;
+  }

@@ -1,0 +1,61 @@
+/* Styling for the education-details-container */
+.myEducontainer{
+  display: grid;
+  grid-template-columns: 20vw auto 20vw;
+  gap: 2rem;
+  position: relative;
+}
+
+.education-details-container {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.education-details-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the education-details-table */
+.education-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.education-details-table th,
+.education-details-table td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: left;
+}
+
+.education-details-table th {
+  background-color: #f2f2f2;
+}
+
+/* Styling for the Add Education button */
+.add-education-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.education-details-label{
+  font-weight: bold;
+}
+
+
+.add-education-button:hover {
+  background-color: #2980b9;
+}
